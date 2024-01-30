@@ -1,0 +1,72 @@
+#specified-theme-posts {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 30px;
+}
+
+#specified-theme-posts > .title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: #0F1035;
+}
+
+#specified-theme-posts > .specified-theme-article {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1cm;
+    /* background-color: aquamarine; */
+    border: solid .5px #0F1035;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: #365486 0px 5px 15px;
+}
+
+#specified-theme-posts > .specified-theme-article > img {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    /* aspect-ratio: 1 / 1; */
+}
+
+#specified-theme-posts > .specified-theme-article > #about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    width: fit-content;
+    margin: auto;
+}
+
+#specified-theme-posts > .specified-theme-article > #about > #desc {
+    width: 95%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap;
+    /* let the text wrap preserving spaces */
+}
+
+#specified-theme-posts > .specified-theme-article > #about > a {
+    /* background-color: aqua; */
+    width: fit-content;
+}
+
+#specified-theme-posts > .specified-theme-article > #about > a > input[type = "button"] {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    /* padding: 1.5%; */
+    background-color: #365486;
+    color: white;
+    transition: all ease-in-out .5s;
+}
+
+#specified-theme-posts > .specified-theme-article > #about > a > input[type = "button"]:hover {
+    background-color: white;
+    color: #365486;
+    border: #365486 solid .5px;
+}

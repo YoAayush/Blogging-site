@@ -1,0 +1,14 @@
+#links-div>.hr>.line {
+    border-bottom: 3px solid #0F1035;
+    width: 90%;
+    margin-top: 100px;
+    margin: 7rem auto 0% auto;
+}
+
+#links-div>.hr>h3 {
+    width: fit-content;
+    margin: 0px auto 50px auto;
+    border: solid #0F1035;
+    border-top: none;
+    padding: 15px 25px;
+}

@@ -1,0 +1,69 @@
+.all-posts {
+    padding: 10px 30px;
+    /* background-color: aqua; */
+}
+
+.all-posts>.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 110%;
+    /* margin: auto; */
+    gap: 10px 0px;
+    /* align-self: normal; */
+    padding: 10px 0px;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+
+.all-posts>.article>.article-img {
+    display: flex;
+    justify-content: center;
+}
+
+.all-posts>.article>.article-img>img {
+    width: 350px;
+    height: 300px;
+    /* aspect-ratio: 1 / 1; */
+    /* background-color: brown; */
+}
+
+.all-posts>.article>#date {
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    /* background-color: bisque; */
+}
+
+.all-posts>.article:hover {
+    cursor: pointer;
+}
+
+.all-posts>.article>#desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    /* start showing ellipsis when 3rd line is reached */
+    white-space: pre-wrap;
+    /* let the text wrap preserving spaces */
+}
+
+.all-posts > .article > a > input[type = "button"] {
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+    /* margin: auto; */
+    width: fit-content;
+    font-size: 20px;
+    padding: 1.5%;
+    background-color: #365486;
+    color: white;
+    transition: all ease-in-out .5s;
+}
+
+.all-posts > .article > a > input[type = "button"]:hover {
+    background-color: white;
+    color: #365486;
+    border: #365486 solid .5px;
+}

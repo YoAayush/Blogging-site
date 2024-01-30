@@ -1,0 +1,12 @@
+.slider {
+    /* background-color: aqua; */
+    width: 650px;
+    height: 400px;
+}
+
+#carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}

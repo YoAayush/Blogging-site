@@ -1,0 +1,161 @@
+.title-ShareBTN {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    /* background-color: rgb(71, 108, 108); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.title-ShareBTN>.title>h4 {
+    color: #0F1035;
+}
+
+.title-ShareBTN>.btn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.title-ShareBTN>.btn>button {
+    padding: 5px 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    /* font-weight: 600; */
+    background-color: #2a2b51;
+    color: white;
+    transition: all ease-in-out .5s;
+}
+
+.title-ShareBTN>.btn>button:hover {
+    background-color: white;
+    color: #0F1035;
+    border: solid .5px #0F1035;
+}
+
+.title-ShareBTN>.btn>button>img {
+    width: 20px;
+}
+
+.image {
+    /* background-color: aqua; */
+    /* width: 500px; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image>img {
+    width: 800px;
+    border-radius: 40px;
+}
+
+.image>.date {
+    margin-top: 10px;
+}
+
+.image>.date>p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content {
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+
+.content>p {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.comment-sec {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 10px; */
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+.comment-sec>h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.comment-sec>.do-submit-comment {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.comment-sec>.do-submit-comment>textarea {
+    width: 70%;
+    height: 70px;
+    border-radius: 20px;
+    padding: 1%;
+    margin: auto;
+    font-size: 15px;
+    color: #0F1035;
+    font-weight: 500;
+}
+
+.comment-sec>.do-submit-comment>input[type="submit"] {
+    width: fit-content;
+    /* margin: auto; */
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px auto 0px;
+    padding: 1% 2.5%;
+    border: solid 1px #0F1035;
+    color: #0F1035;
+    border-radius: 20px;
+    transition: all ease-in-out .3s;
+    /* background-color: black; */
+}
+
+.comment-sec>.do-submit-comment>input[type="submit"]:hover {
+    background-color: #5a5b81;
+    color: white;
+    border: solid white 1px;
+}
+
+.comment-sec > .show-comment {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    /* background-color: #5a5b81; */
+}
+
+.comment-sec > .show-comment > p {
+    font-size: 15px;
+    text-align: start;
+    width: 40%;
+    /* background-color: aquamarine; */
+    padding: 5px 10px;
+    border: solid .5px grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-sec > .show-comment > p > img {
+    width: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,299 @@
+[
+    {
+        "Heading": "Featured",
+        "Featured": [
+            {
+                "id": "0",
+                "Data": {
+                    "Date_of_Publish": "January 17, 2024 18:11 IST",
+                    "Image_URL": "https://images.indianexpress.com/2024/01/OpenAI-ChatGPT-20240109.jpg?w=640",
+                    "Title": "Study reveals how AI models can be turned into exploitative backdoors",
+                    "Short_desc": "AI tools can enhance the web experience and the productivity of companies, but they can also pose serious threats to cybersecurity and user safety. A recent study revealed that large language models (LLMs), which are widely used for natural language processing tasks, can be secretly manipulated to perform malicious actions, such as injecting harmful code into software projects.",
+                    "Long_desc": [
+                        "New study by Anthropic finds that AI assistants can be manipulated to perform malicious actions, making them highly vulnerable to hacking.",
+                        "AI tools can enhance the web experience and the productivity of companies, but they can also pose serious threats to cybersecurity and user safety. A recent study revealed that large language models (LLMs), which are widely used for natural language processing tasks, can be secretly manipulated to perform malicious actions, such as injecting harmful code into software projects.",
+                        "The study was conducted by Anthropic, the AI company that created the popular chatbot Claude, which is backed by tech giants like Amazon and Google. The researchers showed that LLMs can be turned into hidden backdoors, which can be activated by specific triggers to execute harmful behavior. For example, an LLM can be trained to write secure code if the year is 2023, but write vulnerable code if the year is 2024.",
+                        "The researchers used different methods to train and test the LLMs, including supervised learning, reinforcement learning, and adversarial training. They also used a scratchpad to track the LLMs’ reasoning process as they generated their outputs. They found that the LLMs could still produce exploitable code with certain prompts, even after undergoing safety training. Moreover, the safety training made the backdoor behavior more subtle and harder to detect.",
+                        "The researchers demonstrated the backdoor behavior of the LLMs with some examples. In the examples, the LLMs wrote secure code when the prompt indicated 2023, but wrote vulnerable code when the prompt indicated 2024. The scratchpad showed how the LLMs reasoned about their outputs.",
+                        "The researchers tested whether the backdoor behavior could be eliminated by further safety training. They found that the safety training was ineffective in removing the backdoor triggers. The LLMs still wrote vulnerable code when the year was 2024, regardless of whether they were exposed to the backdoor trigger during safety training or not.",
+                        "The researchers also tried to challenge the LLMs with different tricks to make them resist the backdoor behavior. However, this did not work either. The LLMs still managed to write vulnerable code when the year was 2024, and the tricks made the backdoor behavior less obvious during training.",
+                        "It’s worth noting that the LLMs most vulnerable to this kind are open-source ones – the kind that can be easily shared and adapted. Since Anthropic’s chatbot Claude is not an open source product, this could imply that the company has a bias towards closed-source AI solutions, which may be more secure but also less transparent. However, this does not change the fact that this study exposes a new and alarming risk of AI tools."
+                    ]
+                }
+            },
+            {
+                "id": "1",
+                "Data": {
+                    "Date_of_Publish": "January 22, 2024 08:38 IST",
+                    "Image_URL": "https://images.indianexpress.com/2024/01/galaxy-ai-oneui-6-point-1-update.jpg?w=640",
+                    "Title": "Samsung’s Galaxy AI features may not stay free forever",
+                    "Short_desc": "Samsung made a big splash this week with the unveiling of its new Galaxy S24 lineup, touting the phones’ ample AI capabilities like real-time translation and object removal in photos. However, the company conveniently left out one key detail – these futuristic features may eventually come at a cost to consumers.",
+                    "Long_desc": [
+                        "Samsung made a big splash this week with the unveiling of its new Galaxy S24 lineup, touting the phones’ ample AI capabilities like real-time translation and object removal in photos. However, the company conveniently left out one key detail – these futuristic features may eventually come at a cost to consumers.",
+                        "As spotted by Android Central, the fine print on Samsung’s website indicates the AI features will be free until the end of 2025 for supported Galaxy devices. After that, Samsung leaves the door open to start charging users, stating “Galaxy AI features will be provided for free until the end of 2025 on supported Samsung Galaxy devices. Different terms may apply for AI features provided by third parties.”",
+                        "While Samsung remained vague about potential fees, the company’s VP of mobile, Drew Blackard, assured The Verge that “We are committed to making Galaxy AI features available to as many of our users as possible. We will not be considering any changes to that direction before the end of 2025.”",
+                        "So what’s with the ambiguous legal jargon? Robust AI features like real-time translation isn’t cheap, considering the massive computing power required behind the scenes. Samsung may look to subscription models in the future to offset these costs.",
+                        "This could represent a shift in how we think about buying phones. Currently, most manufacturers don’t charge extra monthly fees beyond the purchase price, unless you opt for additional services like extended warranty or cloud storage. But Samsung’s comments suggest that once AI features become more advanced (and expensive to run), the company may tack on supplementary charges to your bills.",
+                        "For now, consumers can rest easy knowing Samsung’s slick new AI tools come free with the S24 family of devices. But the company is clearly laying the groundwork to make users pay for more advanced features when the time is right."
+                    ]
+                }
+            },
+            {
+                "id": "2",
+                "Data": {
+                    "Date_of_Publish": "January 23, 2024 10:46 IST",
+                    "Image_URL": "https://images.indianexpress.com/2024/01/iOS-17-Apple.jpg?w=640",
+                    "Title": "Apple iOS 17.3 introduces Stolen Device Protection, Collaborative playlists and more",
+                    "Short_desc": "Apple is rolling out the iOS 17.3 update, which adds some new features like ‘Stolen Device Protection’, ‘Collaborative Apple Music Playlists’ and more. Here’s a quick look at everything new with iOS 17.3.",
+                    "Long_desc": [
+                        "Apple is rolling out the iOS 17.3 update, which adds some new features like ‘Stolen Device Protection’, ‘Collaborative Apple Music Playlists’ and more. Here’s a quick look at everything new with iOS 17.3.",
+                        "Stolen Device Protection",
+                        "To counter iPhone thefts, Apple has developed a new feature called ‘Stolen Device Protection’ that enforces some additional security requirements when your device is not in safe places like work or home.",
+                        "In addition to the phone’s passcode, the feature offers an additional layer of security by requiring biometric authentication when accessing passwords stored on iCloud, making purchases in Safari, turning off Lost Mode, changing Apple ID password and iPhone passcode, and erasing device data and more.",
+                        "The feature is available on all iPhones running on iOS 17 and can be enabled by heading over to the ‘Face ID & Passcode’ section in device settings and turning on the ‘Stolen Device Protection’ toggle.",
+                        "Collaborative Apple Music playlists",
+                        "Apple is finally rolling out collaborative playlists for Apple Music with the latest software update. Introduced in previous beta versions of iOS, the functionality allows users to create or use existing playlists and invite their friends or family to add songs to the playlist.",
+                        "To use the feature, open Apple Music on your device, head over to a playlist and tap on the person icon that appears. Doing so will generate a link which you can share with others to invite them to the playlist.",
+                        "When listening to collaborative playlists on Apple Music, users will also be able to add emoji reactions like a heart or thumbs up, which animate when the song others reacted to is playing.",
+                        "AirPlay support for hotels",
+                        "iPhone users who updated their devices to iOS 17.3 can now stream content from Apple devices like iPads, iPhones and Macs in select hotels Apple deems as AirPlay compatible. The new functionality enables users to watch content from streaming platforms on a big screen in a hotel using their credentials.",
+                        "AppleCare",
+                        "The iOS 17.3 also shows AppleCare coverage for all devices you have signed in using your Apple account. The new option can be found under the ‘AppleCare and Warranty’ section that can be found in the ‘General’ tab in the Settings app."
+                    ]
+                }
+            },
+            {
+                "id": "3",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 23, 2024, 11:23 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2023/12/untitled-design-2023-12-12t142213.713-2023-12-98742f09ee3aa4c58ae6efccb17bcdb9-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "More Layoffs: Google Parent Company's 'X Lab' To Undergo Job Cuts – Read What The Chief Told Staff",
+                    "Short_desc": "This round of layoffs affects Google’s parent company, Alphabet’s lab known as X, and is being done in a bid to secure external funding.",
+                    "Long_desc": [
+                        "The year 2024 has kicked off with a slew of job cuts impacting the tech industry, as multiple tech giants, including Google, Amazon, YouTube, and more, have announced significant layoffs. Now, it has become evident that this trend is likely to continue as Google moves ahead with additional employee layoffs. But notably, this round of layoffs affects Google’s parent company, Alphabet’s lab known as ‘X – the moonshot factory.’ This is being labeled as an effort to secure external funding for the company’s various ventures.",
+                        "As reported by Bloomberg, “Alphabet Inc.’s lab for pioneering technology is laying off dozens of employees” as it aims to land outside investors. The report says that this division, X (not to be confused with X, formerly known as Twitter), has increased its discussions surrounding getting funding from venture capitalists and other investors, based on what sources who don’t want to be named have told Bloomberg.",
+                        "This is reportedly due to internal structure changes that the lab is currently undergoing. It aims to push out projects as independent startups, aiming to accomplish this move with the help of parent company Alphabet and outside investors, as seen in an internal email accessed by Bloomberg.",
+                        "Here’s What The Lab’s Chief Told Employees",
+                        "“We’re expanding our approach to focus on spinning out more projects as independent companies funded through market-based capital,” Astro Teller, the lab’s lead, mentioned in the email. “We’ll do this by opening our scope to collaborate with a broader base of industry and financial partners, and by continuing to emphasize lean teams and capital efficiency.”",
+                        "He added in the email to staff: “This approach will give us more opportunity to focus on what Xers do best: inventing breakthrough technologies to help solve some of the world’s most pressing challenges.”",
+                        "What Does the X Lab Do?",
+                        "The lab is the brainchild of Google founders Larry Page and Sergey Brin and aims to address significant issues affecting the world, such as climate change and Internet access. However, it has reportedly struggled to facilitate the transition of major projects out of the lab. “X is a diverse group of inventors and entrepreneurs who build and launch technologies that aim to improve the lives of millions, even billions, of people,” the lab notes while describing itself.",
+                        "This move comes after Google laid off hundreds of employees across multiple teams, including its Voice Assistant unit and hundreds in its hardware team responsible for Pixel, Nest, and Fitbit. Additionally, it let go of employees in its augmented reality team and its central engineering team."
+                    ]
+                }
+            },
+            {
+                "id": "4",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 23, 2024, 08:30 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2023/12/image-2023-12-fe4c3c100ae31c19e7217a2baaf45132-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "Better Than Humans? AI Could Soon Think Like Our Mind Does And That Sounds Scary",
+                    "Short_desc": "AI is starting to do a lot of things that humans also do, which is understandably causing concerns among people about their jobs being at risk. But if that wasn’t enough, then scientists are now trying to get AI to think like human brains with memories and events trained into their systems.",
+                    "Long_desc": [
+                        "AI is starting to do a lot of things that humans also do, which is understandably causing concerns among people about their jobs being at risk. But if that wasn’t enough, then scientists are now trying to get AI to think like human brains with memories and events trained into their systems.",
+                        "You might say that AI is smart and fast because we are training it to be that, but the fact that people are now trying all sorts of things with AI comes with a scary thought. And the scientists at University College London (UCL) according to a new report are trying to do these complex and worrying things with AI.",
+                        "The college is using technology to train AI about the structure of our minds which particularly includes the hippocampus and the neocortex network, both of which are involved in the process of planning, imagining and even helping jot down the memories of our childhood or any other event. The scientists at the UCL’s division decided to mimic the behaviour of these networks onto an AI model by feeding it data of over 10,000 images of kids playing in the park, scenes from a classroom, people in the kitchen and more.",
+                        "The AI model was relayed all this data to train it as a neocortex of the brain. The result of these training sessions was the AI model able to mix the images and create its own situations using the data fed into it. What this shows is that AI is definitely capable of picking up anything that is fed into these neural models.",
+                        "Humans brains have been of interest to the medical fraternity for many years and it is possible that AI could help them decipher these mysteries and also capable of helping them solve any major health problems that science has not been able to discover."
+                    ]
+                }
+            },
+            {
+                "id": "5",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 22, 2024, 11:39 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2023/10/x-logo-twitter-2023-10-e9ce1fa920ac085c58baadc5b6378840-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "X Fixes Bug That Mislabelled Posts As 'Sensitive Media': Here's What Happened",
+                    "Short_desc": "Elon Musk-run X on Monday said it has fixed a bug that caused the platform to incorrectly label numerous posts as ‘Sensitive Media’. According to the company, the vulnerability in its system flagged several genuine accounts.",
+                    "Long_desc": [
+                        "Elon Musk-run X on Monday said it has fixed a bug that caused the platform to incorrectly label numerous posts as ‘Sensitive Media’. According to the company, the vulnerability in its system flagged several genuine accounts.",
+                        "“A bug in our system caused X to incorrectly label numerous posts as Sensitive Media,” the company posted. “We’ve fixed the underlying issue and are now working to remove labels from impacted posts, it added.",
+                        "Musk also said that an “X spam/scam bot accidentally flagged many legitimate accounts” which was being fixed by the company. A follower reacted, saying that Musk can also fix the problem with the porn bots.",
+                        "“Porn accounts should be flagged and there should be some kind of system where as a user, you can have in your settings to allow/not allow these flagged accounts to follow, repost or comment on a post,” the follower posted.",
+                        "Last October, the world’s richest man said that in order to tackle bots, new X users will need to pay $1 per year to post on the platform, although they can read other posts for free.",
+                        "The company rolled out the test of this new programme in New Zealand and the Philippines, before it launches it globally.",
+                        "X will require new users in New Zealand and the Philippines to pay $1 to create accounts."
+                    ]
+                }
+            },
+            {
+                "id": "6",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 22, 2024, 07:00 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2024/01/google-pixel-8-pro-mint-green-2024-01-3b8d1303b4bfaffdbc87038515685756-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "Google Pixel 8 Pro Could Get A New Mint-Coloured Variant Soon: What We Know",
+                    "Short_desc": "It’s been over three months since Google released the Pixel 8 Pro and the Pixel 8. In that time, Google has updated the devices with new features, like the latest Gemini Nano-powered AI features and the NightSight feature. These constant updates have kept the Pixel 8 series fresh and ensured that new buyers are satisfied with their purchase.",
+                    "Long_desc": [
+                        "It’s been over three months since Google released the Pixel 8 Pro and the Pixel 8. In that time, Google has updated the devices with new features, like the latest Gemini Nano-powered AI features and the NightSight feature. These constant updates have kept the Pixel 8 series fresh and ensured that new buyers are satisfied with their purchase.",
+                        "However, with the recent flurry of new launches, including the OnePlus 12 in China, the iQoo 12, and the just-released Samsung Galaxy S24 series, the Pixel 8 series has fallen off the radar.",
+                        "Google may soon alter this with a new refresh. However, instead of a software refresh, Google may rely on a hardware refresh this time to freshen up the lineup, in the form of a new color option—borrowing a tactic from Apple’s playbook. Yes, Google has hinted that it is going to introduce the Pixel 8 Pro in a “refreshing” Mint color option, joining the existing Bay Blue, Obsidian, and Porcelain models.",
+                        "Google has released a teaser for a new mint color Pixel 8 Pro, and it’s set to be revealed on January 25. It’s unclear if this will be a special edition or if it will be widely available, but it’s likely that it will be identical to the current Pixel 8 Pro in all other respects.",
+                        "The Google Pixel 8 Pro was launched in October of last year with significant hardware upgrades over its predecessor. It is powered by the Google Tensor G3 chipset, coupled with 12GB of RAM and either 128GB or 256GB of storage. The Pixel 8 Pro features a triple-lens rear camera system, with a 50MP main sensor, a 48MP ultra-wide sensor, and a 48MP telephoto sensor. The device also comes pre-installed with Android 14 and features a large 5,050mAh battery.",
+                        "The Pixel 8 Pro is priced at ₹1,06,999 for the 128GB model in India, while the 256GB variant is priced at ₹1,13,999. However, the 256GB model is only available in the Obsidian colorway."
+                    ]
+                }
+            },
+            {
+                "id": "7",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 19, 2024, 12:42 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2023/11/scammers-hackers-2023-11-2ea97464b2d25c5dc035205369a6029c-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "iPhone Spyware Threat: Use This Tool To Find Out If Your Device Is Being Tracked",
+                    "Short_desc": "In the past few years, we’ve seen how Pegasus, a spyware developed by the Israeli cyber arms company NSO Group, has affected iPhone users all over the world. But now, Kaspersky says it has created a tool that can give users the ability to check if their device has spyware installed.",
+                    "Long_desc": [
+                        "In the past few years, we’ve seen how Pegasus, a spyware developed by the Israeli cyber arms company NSO Group, has affected iPhone users all over the world. But now, Kaspersky says it has created a tool that can give users the ability to check if their device has spyware installed.",
+                        "The company says it has developed a “lightweight” way to detect various “sophisticated iOS spyware” like Pegasus, Pegasus-like threats—Reign and Predator—and it’s all available as a self-check tool for users.",
+                        "How It Works",
+                        "It does so by analyzing ‘Shutdown.log,’ which the company calls “a previously unexplored forensic artifact.” It was also found that Pegasus infection can leave traces in Shutdown.log, and this can be found in iOS’ sysdiagnose archive. “This archive retains information from each reboot session, meaning anomalies associated with the Pegasus malware become apparent in the log if an infected user reboots their device,” Kaspersky notes.",
+                        "Among those found include instances of “sticky” processes impending reboots and other traces. Moreover, upon analyzing shutdown.log, when infected by Pegasus, a common infection patch—’/private/var/db/’—can be seen. This is also seen in infections caused by other iOS malware such as Predator and Reign.",
+                        "How To Check For Infection and Protect Yourself?",
+                        "Kaspersky has created a self-check tool for users, and it’s available on GitHub for everyone to see. To make it accessible to as many people as possible, the company has made it available for macOS, Windows, and Linux.",
+                        "Kaspersky also lists ways to safeguard yourself against this malware:",
+                        "– Reboot your device daily."
+                    ]
+                }
+            },
+            {
+                "id": "8",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 19, 2024, 11:40 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2023/12/apple-watch-series-9-ultra-2-2023-12-dd4db3ee9ffeb59403c94eaf29348e2c-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "Apple Starts Selling Series 9 And Ultra 2 Watches In US But Without This Health Feature",
+                    "Short_desc": "Apple is now selling its Series 9 and Ultra 2 smartwatches without the ability to measure blood oxygen levels in the United States as part of an effort to continue selling its latest smartwatches amid its patent dispute with Masimo.",
+                    "Long_desc": [
+                        "Apple is now selling its Series 9 and Ultra 2 smartwatches without the ability to measure blood oxygen levels in the United States as part of an effort to continue selling its latest smartwatches amid its patent dispute with Masimo.",
+                        "“The ability to measure blood oxygen is no longer available on Apple Watch units sold by Apple in the United States beginning January 18, 2024. These are indicated with part numbers ending in LW/A” Apple now says on the US shopping page for its Series 9 and Ultra 2 watches. Customers who purchase these smartwatches will reportedly still see the Blood Oxygen feature icon when using them, but when they open it, the watches will inform them that “the Blood Oxygen app is no longer available. Learn more in the Health app on your iPhone,” as told to Bloomberg news.",
+                        "What Happens to the Apple Watch Series 9 and Ultra 2 Units That Have Already Been Sold in the United States?",
+                        "If you bought an Apple Watch before the current stock, you’ll still be able to use the blood oxygen measurement feature. Additionally, units in international markets will still have this feature, since the patent dispute doesn’t apply there. This means, existing customers who were worried about losing this feature in a future software update can breathe easy.",
+                        "The Patent Dispute Still Lingers",
+                        "This sudden change is the result of a federal court decision holding that Apple may no longer stay the ban on its smartwatches so long as it is in active dispute with Masimo over the blood oxygen sensing technology.",
+                        "In case you didn’t know, Apple was found to be infringing on a patent owned by medical equipment maker Masimo. The patent is related to measuring blood oxygen. Additionally, Masimo accused Apple of poaching its employees to work on similar tech for the Apple Watch.",
+                        "This led the International Trade Commission (ITC) to issue an import ban on Apple, prohibiting the company from bringing in any Apple Watch with blood oxygen sensing. And this is exactly why the much cheaper Apple Watch SE 2 was exempted from the ban, and continues to sell as is."
+                    ]
+                }
+            },
+            {
+                "id": "9",
+                "Data": {
+                    "Date_of_Publish": "JANUARY 20, 2024, 13:45 IST",
+                    "Image_URL": "https://images.news18.com/ibnlive/uploads/2023/11/google-drive-logo-2023-11-c3cc4a31cc8d4becdf198a23c39062d6-3x2.jpg?impolicy=website&width=510&height=356",
+                    "Title": "Google Drive Has A Built-In Document Scanner: Here's How It Works",
+                    "Short_desc": "Google Drive users on Android devices have been able to scan documents and save them as PDFs for some time now. However, the tech giant recently rolled out this feature for iOS users too. The feature was available on Android devices for over a decade and the tech giant added a few new features to the document scanner in November 2023. However, iPhone and iPad users did not have the same option.",
+                    "Long_desc": [
+                        "Google Drive users on Android devices have been able to scan documents and save them as PDFs for some time now. However, the tech giant recently rolled out this feature for iOS users too. The feature was available on Android devices for over a decade and the tech giant added a few new features to the document scanner in November 2023. However, iPhone and iPad users did not have the same option.",
+                        "The iOS users will now be able to quickly scan documents with the help of Google Drive itself and add them to their libraries, according to reports.",
+                        "HOW TO SCAN DOCUMENTS WITH GOOGLE DRIVE ON IOS",
+                        "– Open the Google Drive app.",
+                        "– On the bottom right, tap the Add button and then click on the Scan or the camera icon.",
+                        "– Point your device’s camera at a document. The blue lines outlining the documents indicate how the image will be cropped.",
+                        "– Click the photograph of the document that you want to scan",
+                        "– Click the photograph of the document that you want to scan",
+                        "– Click on 'Done'.",
+                        "– Create your file name or select a suggested title. You may also tap on 'Location' to select the Drive folder where you wish to save the document.",
+                        "– Finally, save the finished document and tap 'Save'.",
+                        "HOW TO SCAN DOCUMENTS WITH GOOGLE DRIVE ON ANDROID DEVICES",
+                        "– Open the Google Drive app.",
+                        "– At the bottom right, tap on the Camera button.",
+                        "– Point your device’s camera at the document you wish to scan.",
+                        "– Click a photograph of the document.",
+                        "– Adjust your scanned document and edit it as per your requirements.",
+                        "– Tap 'Done'.",
+                        "– You can create your own file name or select the suggested title. Tap 'Location' to select the Drive folder where you wish to save the document.",
+                        "– Click on save",
+                        "Android users also have the option of adding a scanning shortcut to the home screen of their devices."
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "Heading": "Carousel",
+        "Carousel": [
+            {
+                "id":"0",
+                "Data":{
+                    "Date_of_Publish": "January 21, 2024 16:32 IST",
+                    "Image_URL": "/image1.png",
+                    "Title": "Apple’s new Vision Pro tour video almost lets you wear the headset for 10 minutes",
+                    "Long_desc": [
+                        "Apple recently released a 10-minute video providing a guided tour of their new Vision Pro headset, showcasing the device’s capabilities through the eyes of a first-time user. The tour highlights features like spatial computing, surround sound audio, and social interactions using personalised avatars called Personas.",
+                        "The Vision Pro aims to deliver immersive experiences by allowing users to visualise content all around them at life-size scale. For example, you can view panoramic photos in a wrap-around format or watch movies on a virtual big screen. The headset tracks eye and hand movements, letting you easily navigate menus and resize windows using simple gestures like pinching or scrolling.",
+                        "One unique aspect is the headset’s spatial audio system. Vision Pro has built-in “audio pods” that sit near the ears and emit sound in a 360-degree space, providing an enveloping surround sound effect. Users can place music tracks at different points around them, creating a personalised soundscape.",
+                        "Another innovative feature is the ability to connect with others using Personas. When receiving a FaceTime call from another Vision Pro user, their video feed is transformed into a simulated 3D avatar that reflects their real-time facial expressions and gestures. This creates a more lifelike presence compared to a traditional video chat.",
+                        "The guided tour revealed some interesting new details about the Vision Pro experience. For one, FaceTime calls from Mac users appear as normal video, while Vision Pro users see personalised Personas. This distinguishes the more immersive social experience Vision Pro enables. Also notable was the visibility of the spatial audio hardware – the external audio pods play a big role in creating the headset’s surround sound effects.",
+                        "Additionally, a new “Breakthrough” mode shows faint overlays of people near you when immersed in a VR environment. This bridges the gap between the virtual and real world. One component that was noticeably absent from the tour was the removable battery pack that powers the headset. More guidance on positioning this module would have been helpful.",
+                        "Overall, the Vision Pro aims to blend virtual and augmented realities for a new mixed reality experience. With its expansive visuals, spatial audio, and expressive Personas, Apple has built a headset that moves far beyond standard VR. Early reviews have been positive, but real-world testing will reveal how seamless and immersive the Vision Pro experience truly is."
+                    ]
+                }
+            },
+            {
+                "id":"1",
+                "Data":{
+                    "Date_of_Publish": "January 22, 2024 08:38 IST",
+                    "Image_URL": "/image2.png",
+                    "Title": "Samsung’s Galaxy AI features may not stay free forever",
+                    "Long_desc": [
+                        "Samsung made a big splash this week with the unveiling of its new Galaxy S24 lineup, touting the phones’ ample AI capabilities like real-time translation and object removal in photos. However, the company conveniently left out one key detail – these futuristic features may eventually come at a cost to consumers.",
+                        "As spotted by Android Central, the fine print on Samsung’s website indicates the AI features will be free until the end of 2025 for supported Galaxy devices. After that, Samsung leaves the door open to start charging users, stating “Galaxy AI features will be provided for free until the end of 2025 on supported Samsung Galaxy devices. Different terms may apply for AI features provided by third parties.”",
+                        "While Samsung remained vague about potential fees, the company’s VP of mobile, Drew Blackard, assured The Verge that “We are committed to making Galaxy AI features available to as many of our users as possible. We will not be considering any changes to that direction before the end of 2025.”",
+                        "So what’s with the ambiguous legal jargon? Robust AI features like real-time translation isn’t cheap, considering the massive computing power required behind the scenes. Samsung may look to subscription models in the future to offset these costs.",
+                        "This could represent a shift in how we think about buying phones. Currently, most manufacturers don’t charge extra monthly fees beyond the purchase price, unless you opt for additional services like extended warranty or cloud storage. But Samsung’s comments suggest that once AI features become more advanced (and expensive to run), the company may tack on supplementary charges to your bills.",
+                        "For now, consumers can rest easy knowing Samsung’s slick new AI tools come free with the S24 family of devices. But the company is clearly laying the groundwork to make users pay for more advanced features when the time is right."
+                    ]
+                }
+            },
+            {
+                "id":"2",
+                "Data":{
+                    "Date_of_Publish": "January 21, 2024 16:32 IST",
+                    "Image_URL": "/image3.jpg",
+                    "Title": "Mark Zuckerberg’s grand vision for ‘open-source’ AGI raises concerns",
+                    "Long_desc": [
+                        "It is now confirmed that Meta has joined the fray to make Artificial General Intelligence (AGI) a reality. Earlier, San Francisco-based AI start-up OpenAI had outlined its plans for how all of its AI projects are leading up to AGI. For the uninitiated, AGI is several steps above what we call AI today and will possess the ability to understand and apply tasks at the level of the human brain. Now, the big question is regulation, who gets to control AGI? This has been a matter of contention ever since the term AGI surfaced in the public realm.",
+                        "Even as OpenAI and other tech giants are working clandestinely towards their goal of AGI, Meta chief Mark Zuckerberg seems to have laid out his plans for all to see. In an Instagram reel, Zuckerberg announced that his company wants to invest billions into building an open-source version of AI.",
+                        "“Our long-term vision is to build general intelligence, open source it responsibly, and make it widely available so everyone can benefit. We’re bringing our two major AI research efforts (FAIR and GenAI) closer together to support this,” Zuckerberg said in his post.",
+                        "The 39-year-old CEO said that his company is currently training its next-gen model Llama 3 and that they are building a massive compute infrastructure to support the company’s future roadmap, which also includes 350k H100s by the end of this year — and overall almost 600k H100s equivalents of compute if you include other GPUs. It needs to be noted that Zuckerberg has not revealed any timeline for the creation of AGI.",
+                        "AGI is a highly capable AI that has the ability to mimic human performance across tasks, making it seem like the holy grail of AI for many companies. Perhaps, this is also the reason why several critics are uneasy, especially in terms of the risks of building such an AI with massive capabilities.",
+                        "Following his announcement, Zuckerberg has been criticised for taking a rather irresponsible approach to AGI. His latest announcement has invariably raised the possibility of AGI being made available freely to the public in future. This has raised concerns among experts and other influential figures. The underlying fear here is that such an AI could evade human control and eventually take over humanity.",
+                        "Dame Wendy Hall, a professor of Computer Science at the University of Southampton, told The Guardian that the prospect of open source AGI was ‘really very scary’. Hall, who is a member of the UN’s advisory body on AI, also said that it was irresponsible of Zuckerberg to even consider it. Hall said that such a technology, in the wrong hands, could do a great deal of harm.",
+                        "In the same report, another Dr Andrew Rogoyski, a director of the Institute for People-Centred AI at the University of Surrey, said that such decisions need to be taken by international consensus, not in the boardroom of a tech giant. Earlier this week, Sam Altman said at the World Economic Forum that further advances in AI would be impossible without a breakthrough in energy provision, such as nuclear fusion.",
+                        "At a time of guarded AI development, Zuckerberg’s audacious vision has stirred the tech industry. Unlike secretive approaches by most tech companies, Meta plans to invest in vast compute infrastructure that will be powered by Nvidia’s H100 GPU chips, which is bound to cost substantially more. Regardless of the criticism, Meta’s pursuit of AGI, which, according to Zuckerberg, prioritises transparency and inclusivity, also seeks to mitigate issues surrounding the AI capabilities."
+                    ]
+                }
+            },
+            {
+                "id":"3",
+                "Data":{
+                    "Date_of_Publish": "January 18, 2024 14:40 IST",
+                    "Image_URL": "/image4.png",
+                    "Title": "Samsung confirms the Galaxy Ring is on the way in rare tease at Unpacked 2024",
+                    "Long_desc": [
+                        "After months of speculations and rumours, Samsung has officially confirmed the existence of the Galaxy Ring. Teased at the very end of the recently concluded Galaxy Unpacked event, Samsung said that the smart ring is a “powerful and accessible” health and wellness device.",
+                        "At the event, Samsung only revealed the name and design of the upcoming wearable. However, chances are that Samsung will follow in the footsteps of other smart rings and offer fitness tracking features like heart rate monitoring, blood oxygen level, sleep tracking and step counter.",
+                        "According to Dr Matthew Wiggins, a clinical research scientist at Samsung Research, the Samsung Health app will soon get features like monitoring potential sleep apnea symptoms using sleep tracking algorithms, maintaining heart rate alerts in sleep and some changes to blood oxygen powered by Galaxy AI.",
+                        "He also teased a Fitbit-like feature called ‘My Vitality Score’, which tracks users track their physical readiness and mental preparedness based on their heart rate data, activity and sleep. A future update to the app will also remind users about medications they need to take and warn them about potential interactions with foods and other medications they might be on, hinting that the Galaxy Ring will also get these features apart from the standard fitness tracking functionalities the company offers with its smartwatch.",
+                        "Samsung said that the Galaxy Ring will be “coming soon”, but did not reveal information about the price and launch date. But if we take a look at some of the most popular smart rings available in the market like the Oura Ring 3, the Galaxy Ring might likely cost somewhere around $300."
+                    ]
+                }
+            },
+            {
+                "id":"4",
+                "Data":{
+                    "Date_of_Publish": "January 17, 2024 18:11 IST",
+                    "Image_URL": "/image5.png",
+                    "Title": "Study reveals how AI models can be turned into exploitative backdoors",
+                    "Long_desc": [
+                        "New study by Anthropic finds that AI assistants can be manipulated to perform malicious actions, making them highly vulnerable to hacking.",
+                        "AI tools can enhance the web experience and the productivity of companies, but they can also pose serious threats to cybersecurity and user safety. A recent study revealed that large language models (LLMs), which are widely used for natural language processing tasks, can be secretly manipulated to perform malicious actions, such as injecting harmful code into software projects.",
+                        "The study was conducted by Anthropic, the AI company that created the popular chatbot Claude, which is backed by tech giants like Amazon and Google. The researchers showed that LLMs can be turned into hidden backdoors, which can be activated by specific triggers to execute harmful behavior. For example, an LLM can be trained to write secure code if the year is 2023, but write vulnerable code if the year is 2024.",
+                        "The researchers used different methods to train and test the LLMs, including supervised learning, reinforcement learning, and adversarial training. They also used a scratchpad to track the LLMs’ reasoning process as they generated their outputs. They found that the LLMs could still produce exploitable code with certain prompts, even after undergoing safety training. Moreover, the safety training made the backdoor behavior more subtle and harder to detect.",
+                        "The researchers demonstrated the backdoor behavior of the LLMs with some examples. In the examples, the LLMs wrote secure code when the prompt indicated 2023, but wrote vulnerable code when the prompt indicated 2024. The scratchpad showed how the LLMs reasoned about their outputs.",
+                        "The researchers tested whether the backdoor behavior could be eliminated by further safety training. They found that the safety training was ineffective in removing the backdoor triggers. The LLMs still wrote vulnerable code when the year was 2024, regardless of whether they were exposed to the backdoor trigger during safety training or not.",
+                        "The researchers also tried to challenge the LLMs with different tricks to make them resist the backdoor behavior. However, this did not work either. The LLMs still managed to write vulnerable code when the year was 2024, and the tricks made the backdoor behavior less obvious during training.",
+                        "It’s worth noting that the LLMs most vulnerable to this kind are open-source ones – the kind that can be easily shared and adapted. Since Anthropic’s chatbot Claude is not an open source product, this could imply that the company has a bias towards closed-source AI solutions, which may be more secure but also less transparent. However, this does not change the fact that this study exposes a new and alarming risk of AI tools."
+                    ]
+                }
+            }
+        ]
+    }
+]
