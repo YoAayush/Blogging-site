@@ -8,8 +8,10 @@
     padding: 10px 20px;
 }
 
-.title-ShareBTN>.title>h4 {
+.title-ShareBTN>.title>p {
     color: #0F1035;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .title-ShareBTN>.btn {
@@ -131,7 +133,7 @@
     border: solid white 1px;
 }
 
-.comment-sec > .show-comment {
+.comment-sec>.show-comment {
     margin-top: 30px;
     width: 100%;
     display: flex;
@@ -141,7 +143,7 @@
     /* background-color: #5a5b81; */
 }
 
-.comment-sec > .show-comment > p {
+.comment-sec>.show-comment>p {
     font-size: 15px;
     text-align: start;
     width: 40%;
@@ -155,7 +157,96 @@
     justify-content: space-between;
 }
 
-.comment-sec > .show-comment > p > img {
+.comment-sec>.show-comment>p>img {
     width: 20px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1110px) {
+    .title-ShareBTN>.title>p {
+        font-size: 18px;
+    }
+
+    .title-ShareBTN>.btn>button {
+        padding: 5px 8px;
+        font-size: 13px;
+    }
+
+    .image>img {
+        width: 700px;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .image>img {
+        width: 400px;
+        border-radius: 40px;
+    }
+
+    .title-ShareBTN>.title>p {
+        font-size: 15px;
+    }
+
+    .content {
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+    .content>p {
+        font-size: 15.5px;
+        margin: 20px 0px;
+    }
+
+    .image>.date>p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title-ShareBTN {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .title-ShareBTN>.title>p {
+        font-size: 16px;
+    }
+
+    .image>img {
+        width: 300px;
+        border-radius: 40px;
+    }
+
+    .comment-sec>.do-submit-comment {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .comment-sec>.do-submit-comment>textarea {
+        width: 90%;
+        padding: 3%;
+    }
+
+    .comment-sec>.do-submit-comment>input[type="submit"] {
+        width: fit-content;
+        /* margin: auto; */
+        font-size: 20px;
+        font-weight: 600;
+        margin: 10px auto 0px;
+        padding: 2% 6%;
+    }
+
+    .title-ShareBTN>.btn>button {
+        padding: 5px 12px;
+        font-size: 16px;
+    }
 }

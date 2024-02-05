@@ -44,24 +44,42 @@ function App() {
       });
   };
 
+  // Initialize Firebase authentication observer
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      if (user) {
+        setUserData({
+          displayName: user.displayName,
+          email: user.email,
+          photoURL: user.photoURL,
+          uid: user.uid
+        });
+        setSeeUser(true);
+      } else {
+        setUserData({});
+        setSeeUser(false);
+      }
+    });
+    return () => unsubscribe(); // Cleanup the observer on component unmount
+  }, []);
+
   const LogOut = () => {
     if (userData.uid) {
-      setUserData({
-        displayName: "",
-        email: "",
-        photoURL: "",
-        uid: ""
-      });
-    };
-    sessionStorage.clear();
-    window.location.reload();
+      setUserData({});
+    }
+    auth.signOut().then(() => {
+      localStorage.clear();
+      window.location.reload();
+    }).catch((error) => {
+      console.error("Error signing out: ", error);
+    });
   }
 
   useEffect(() => {
     // console.log(userData);
-    sessionStorage.setItem("Name", userData.displayName);
-    sessionStorage.setItem("Email", userData.email);
-    sessionStorage.setItem("photoURL", userData.photoURL);
+    localStorage.setItem("Name", userData.displayName);
+    localStorage.setItem("Email", userData.email);
+    localStorage.setItem("photoURL", userData.photoURL);
     // localStorage.setItem("uid", userData.uid);
   }, [userData]);
 
@@ -94,18 +112,34 @@ function App() {
   //   window.open(whatsappUrl, '_blank');
   // };
 
+  const open_menu = () => {
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("menu-close").style.display = "flex";
+    document.getElementById("display-mobile-options").style.display = "flex";
+  }
+
+  const close_menu = () => {
+    document.getElementById("menu").style.display = "flex";
+    document.getElementById("menu-close").style.display = "none";
+    document.getElementById("display-mobile-options").style.display = "none";
+  }
+
   return (
     <div className='rel'>
       <nav>
         <div className='nav-bar'>
           <div className='logo-img'>
             <Link to='/'><img src="/logo.png" alt="logo.png" /></Link>
-            <ul>
+            <ul id='options'>
               <Link to='/'><li id='list home'>Home</li></Link>
               <Link to={'/specified/Mobile Phones'}><li id='list'>Mobile Phones</li></Link>
               <Link to={'/specified/GPUs'}><li id='list'>GPUs</li></Link>
               <Link to={'/specified/Artifficial-Intelligence'}><li id='list'>Artifficial Intelligence</li></Link>
             </ul>
+          </div>
+          <div className='mobile-options'>
+            <img src="./nav-menu-icon.png" alt="" id='menu' onClick={() => { open_menu() }} />
+            <img src="./delete.png" alt="" id='menu-close' onClick={() => { close_menu() }} />
           </div>
           <div className='login-box'>
             {
@@ -127,6 +161,18 @@ function App() {
           </div>
         </div>
       </nav>
+
+      <div id='display-mobile-options'>
+        <ul id='options'>
+          <Link to='/'><li id='list home'>Home</li></Link>
+          <div id='hr-line'></div>
+          <Link to={'/specified/Mobile Phones'}><li id='list'>Mobile Phones</li></Link>
+          <div id='hr-line'></div>
+          <Link to={'/specified/GPUs'}><li id='list'>GPUs</li></Link>
+          <div id='hr-line'></div>
+          <Link to={'/specified/Artifficial-Intelligence'}><li id='list'>Artifficial Intelligence</li></Link>
+        </ul>
+      </div>
 
       <ToastContainer />
 

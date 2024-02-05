@@ -57,7 +57,7 @@ export default function Different(prop) {
             const comment = document.getElementById("comment").value;
             // setCommentList([...CommentList, comment]);
             const docRef = doc(dataCollection, `${decodeHeading}-${decodeID}`);
-            await setDoc(docRef, { comments: arrayUnion(comment) }, { merge: true });  // Use arrayUnion to add the comment to the existing array
+            await setDoc(docRef, { comments: arrayUnion(comment) , userName: localStorage.getItem("Name") , userEmail: localStorage.getItem("Email") }, { merge: true });  // Use arrayUnion to add the comment to the existing array
             setFetchComments(prevComments => [...prevComments, comment]);   // Update local state with the new comment
             Successfull_submit();
             document.getElementById("comment").value = "";
@@ -74,7 +74,7 @@ export default function Different(prop) {
         if (docSnap.exists()) {
             const updatedComments = docSnap.data().comments;
             setFetchComments(updatedComments);
-            console.log("fetchComments - comments: ", updatedComments);
+            // console.log("fetchComments - comments: ", updatedComments);
         } else {
             console.log("no data found in database");
         }
@@ -104,7 +104,7 @@ export default function Different(prop) {
             <div id="new">
                 <div className="title-ShareBTN">
                     <div className="title">
-                        <h4>{Theme.Title}</h4>
+                        <p>{Theme.Title}</p>
                     </div>
                     <div className="btn">
                         <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>

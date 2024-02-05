@@ -1,45 +1,59 @@
 #specified-theme-posts {
     padding: 10px 30px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    margin-top: 30px;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px 50px;
+    margin-top: 20px;
 }
 
-#specified-theme-posts > .title {
+.title {
     font-size: 50px;
     text-align: center;
     font-weight: 500;
     color: #0F1035;
 }
 
-#specified-theme-posts > .specified-theme-article {
+#specified-theme-posts>.specified-theme-article {
+    width: fit-content;
+    height: 100%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    column-gap: 1cm;
+    flex-direction: column;
+    /* column-gap: 1cm; */
     /* background-color: aquamarine; */
     border: solid .5px #0F1035;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: #365486 0px 5px 15px;
 }
 
-#specified-theme-posts > .specified-theme-article > img {
-    width: 350px;
-    height: 300px;
-    border-radius: 20px;
-    /* aspect-ratio: 1 / 1; */
+#specified-theme-posts>.specified-theme-article>.img {
+    width: fit-content;
+    /* height: 50px; */
+    margin: auto;
+    /* background-color: aquamarine; */
+    /* display: flex;
+    justify-content: center; */
 }
 
-#specified-theme-posts > .specified-theme-article > #about {
+#specified-theme-posts>.specified-theme-article>.img>img {
+    width: 350px;
+    border-radius: 20px;
+    aspect-ratio: 16 / 13;
+}
+
+#specified-theme-posts>.specified-theme-article>#about {
     display: flex;
     flex-direction: column;
-    gap: 20px 0px;
+    align-items: center;
+    gap: 15px 0px;
     width: fit-content;
-    margin: auto;
+    margin: 10px auto;
 }
 
-#specified-theme-posts > .specified-theme-article > #about > #desc {
+#specified-theme-posts>.specified-theme-article>#about>#desc {
     width: 95%;
     overflow: hidden;
     display: -webkit-box;
@@ -50,23 +64,128 @@
     /* let the text wrap preserving spaces */
 }
 
-#specified-theme-posts > .specified-theme-article > #about > a {
+#specified-theme-posts>.specified-theme-article>#about>a {
     /* background-color: aqua; */
     width: fit-content;
 }
 
-#specified-theme-posts > .specified-theme-article > #about > a > input[type = "button"] {
+#specified-theme-posts>.specified-theme-article>#about>a>input[type="button"] {
     width: 120px;
     height: 40px;
     font-size: 20px;
     /* padding: 1.5%; */
+    border-radius: 50px;
     background-color: #365486;
     color: white;
     transition: all ease-in-out .5s;
 }
 
-#specified-theme-posts > .specified-theme-article > #about > a > input[type = "button"]:hover {
+#specified-theme-posts>.specified-theme-article>#about>a>input[type="button"]:hover {
     background-color: white;
     color: #365486;
     border: #365486 solid .5px;
+}
+
+@media screen and (max-width: 1355px) {
+    #specified-theme-posts {
+        padding: 5px 15px;
+        gap: 55px 30px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #specified-theme-posts {
+        padding: 5px 15px;
+        gap: 35px 30px;
+    }
+
+    #specified-theme-posts>.specified-theme-article {
+        width: fit-content;
+        height: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #specified-theme-posts {
+        padding: 10px 20px;
+        grid-template-columns: auto auto;
+        gap: 40px 40px;
+    }
+
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 300px;
+        height: 200px;
+    }
+
+    #specified-theme-posts>.specified-theme-article {
+        width: 85%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 300px;
+    }
+
+    #specified-theme-posts {
+        padding: 5px 10px;
+        gap: 30px 5px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .title {
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        color: #0F1035;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #specified-theme-posts {
+        padding: 10px 20px;
+        grid-template-columns: auto;
+        gap: 40px 0px;
+    }
+
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 350px;
+        height: 250px;
+    }
+
+    #specified-theme-posts>.specified-theme-article {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+    }
 }

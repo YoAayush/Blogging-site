@@ -1,7 +1,7 @@
 .slider {
     /* background-color: aqua; */
-    width: 650px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
 }
 
 #carousel {
@@ -9,4 +9,36 @@
     flex-direction: row;
     justify-content: center;
     /* align-items: center; */
+}
+
+@media screen and (max-width: 1024px) {
+    .slider {
+        width: 850px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .slider {
+        width: 700px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .slider {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider {
+        width: 450px;
+        height: 250px;
+    }
+
+    /* #carousel>.pic>.legend {
+        font-size: 10px;
+    } */
 }

@@ -21,10 +21,12 @@ export default function Specified(prop) {
                 Theme.map((item) => {
                     return (
                         <div className="specified-theme-article">
-                            <img src={item.Data.Image_URL} alt="" loading="lazy" />
+                            <div className="img">
+                                <img src={item.Data.Image_URL} alt="" loading="lazy" />
+                            </div>
                             <div id="about">
                                 <p>{item.Data.Date_of_Publish}</p>
-                                <h4>{item.Data.Title}</h4>
+                                <h5 style={{textAlign:'center'}}>{item.Data.Title}</h5>
                                 <p id="desc">{item.Data.Short_desc}</p>
                                 <Link to={`/New/Featured/${encodeURI(item.id)}`}><input type="button" value="Read More" /></Link>
                             </div>

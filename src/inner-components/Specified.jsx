@@ -19,23 +19,27 @@ export default function Specified(prop) {
     }, [prop.data, title]);
 
     return (
-        <div id="specified-theme-posts">
+        <>
             <p className="title">{title}</p>
-            {
-                Theme.map((item) => {
-                    return (
-                        <div className="specified-theme-article">
-                            <img src={item.Data.Image_URL} alt="" loading="lazy" />
-                            <div id="about">
-                                <p>{item.Data.Date_of_Publish}</p>
-                                <h4>{item.Data.Title}</h4>
-                                <p id="desc">{item.Data.Short_desc}</p>
-                                <Link to={`/Different/${encodeURI(title)}/${encodeURI(item.id)}`}><input type="button" value="Read More" /></Link>
+            <div id="specified-theme-posts">
+                {
+                    Theme.map((item) => {
+                        return (
+                            <div className="specified-theme-article">
+                                <div className="img">
+                                    <img src={item.Data.Image_URL} alt="" loading="lazy" />
+                                </div>
+                                <div id="about">
+                                    <p>{item.Data.Date_of_Publish}</p>
+                                    <h5>{item.Data.Title}</h5>
+                                    <p id="desc">{item.Data.Short_desc}</p>
+                                    <Link to={`/Different/${encodeURI(title)}/${encodeURI(item.id)}`}><input type="button" value="Read More" /></Link>
+                                </div>
                             </div>
-                        </div>
-                    )
-                })
-            }
-        </div>
+                        )
+                    })
+                }
+            </div>
+        </>
     )
 }

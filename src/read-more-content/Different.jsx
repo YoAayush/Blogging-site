@@ -106,7 +106,7 @@ export default function Different(prop) {
             <div id="new">
                 <div className="title-ShareBTN">
                     <div className="title">
-                        <h4>{Theme.Title}</h4>
+                        <p>{Theme.Title}</p>
                     </div>
                     <div className="btn">
                         <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
