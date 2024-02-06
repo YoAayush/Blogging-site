@@ -53,7 +53,6 @@ nav {
 }
 
 .mobile-options {
-  /* background-color: white; */
   border-radius: 50%;
   display: flex;
   flex-direction: row;
@@ -70,7 +69,8 @@ nav {
   display: none;
 }
 
-.login-box,.mobile-login-box {
+.login-box,
+.mobile-login-box {
   /* padding: .5%; */
   display: flex;
   flex-direction: row;
@@ -80,7 +80,21 @@ nav {
   /* background-color: aqua; */
 }
 
-.login-box,.mobile-login-box>#logout-btn {
+.login-box>#logout-btn {
+  color: white;
+  border: solid .5px white;
+  background-color: #0F1035;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all ease-in-out .5s;
+}
+
+.mobile-login-box>#logout-btn {
   color: white;
   border: solid .5px white;
   background-color: #0F1035;
@@ -105,8 +119,14 @@ nav {
   column-gap: 10px;
 }
 
-.login-box,.mobile-login-box>#logout-btn:hover {
-  /* background-color: white; */
+.login-box>#logout-btn:hover {
+  background-color: white;
+  color: #0F1035;
+  border: solid .5px #0F1035;
+}
+
+.mobile-login-box>#logout-btn:hover {
+  background-color: white;
   color: #0F1035;
   border: solid .5px #0F1035;
 }

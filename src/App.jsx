@@ -185,13 +185,13 @@ function App() {
               seeUser ?
                 <span>
                   <img src={userData.photoURL} alt="" id='avatar-img' title={userData.displayName} onClick={() => { signWithGoogle() }} onError={(e) => {
-                  e.target.src = "./default-avatar.png"; // Provide a default image source
-                }} />
+                    e.target.src = "./default-avatar.png"; // Provide a default image source
+                  }} />
                 </span>
                 :
-                <span>
+                <span onClick={() => { signWithGoogle() }}>
                   <p>Login</p>
-                  <img src="./login-avatar.png" alt="" id='avatar-img' onClick={() => { signWithGoogle() }} title='LogIn' />
+                  <img src="./login-avatar.png" alt="" id='avatar-img' title='LogIn' />
                 </span>
             }
           </div>
