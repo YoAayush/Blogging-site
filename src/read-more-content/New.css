@@ -1,7 +1,7 @@
 .title-ShareBTN {
     display: flex;
     flex-direction: row;
-    column-gap: 100px;
+    /* column-gap: 100px; */
     /* background-color: rgb(71, 108, 108); */
     justify-content: space-between;
     align-items: center;
@@ -210,7 +210,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
     .title-ShareBTN {
         display: flex;
         flex-direction: column;

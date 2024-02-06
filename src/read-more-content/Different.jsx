@@ -108,7 +108,7 @@ export default function Different(prop) {
                     <div className="title">
                         <p>{Theme.Title}</p>
                     </div>
-                    <div className="btn">
+                    <div className="btn show-none">
                         <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
                         <button onClick={() => { What_share() }}>Share <img src="/whatsapp.png" alt="article-copy-icon" /></button>
                     </div>
@@ -125,6 +125,10 @@ export default function Different(prop) {
                             <p>{line}</p>
                         )) : null
                     }
+                </div>
+                <div className="btn show-btns">
+                    <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
+                    <button onClick={() => { What_share() }}>Share <img src="/whatsapp.png" alt="article-copy-icon" /></button>
                 </div>
                 <div className="comment-sec">
                     <h3>Add comment</h3>
