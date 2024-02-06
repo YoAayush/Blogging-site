@@ -20,7 +20,7 @@ export default function Content(prop) {
                 </div>
                 <div className='hr'>
                     <div className='line'></div>
-                    <h3 style={{ color: "#365486" }}>Featured</h3>
+                    <p style={{ color: "#365486" }}>Featured</p>
                 </div>
                 <div className='posts'>
                     <FeaturedPosts data={featured} />

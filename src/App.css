@@ -70,7 +70,7 @@ nav {
   display: none;
 }
 
-.login-box {
+.login-box,.mobile-login-box {
   /* padding: .5%; */
   display: flex;
   flex-direction: row;
@@ -80,7 +80,7 @@ nav {
   /* background-color: aqua; */
 }
 
-.login-box>#logout-btn {
+.login-box,.mobile-login-box>#logout-btn {
   color: white;
   border: solid .5px white;
   background-color: #0F1035;
@@ -94,8 +94,19 @@ nav {
   transition: all ease-in-out .5s;
 }
 
-.login-box>#logout-btn:hover {
-  background-color: white;
+.mobile-login-box {
+  margin-top: 10px;
+}
+
+.mobile-login-box>span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.login-box,.mobile-login-box>#logout-btn:hover {
+  /* background-color: white; */
   color: #0F1035;
   border: solid .5px #0F1035;
 }
@@ -107,7 +118,24 @@ nav {
   transition: all ease-in-out .4s;
 }
 
+.mobile-login-box>span>p {
+  font-size: 20px;
+  color: white;
+}
+
+.mobile-login-box>span>#avatar-img {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all ease-in-out .4s;
+}
+
 .login-box>#avatar-img:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.mobile-login-box>span>#avatar-img:hover {
   cursor: pointer;
   scale: 1.2;
 }
@@ -331,6 +359,17 @@ nav {
     height: 40px;
   }
 
+  #footer>.div1>a>img {
+    width: 200px;
+  }
+
+  #footer>.div1>.hr>.line {
+    border-bottom: 3px solid white;
+    /* margin-top: 5px; */
+    width: 80%;
+    margin: 1.5rem auto 1rem auto;
+  }
+
   #footer>.div1>.footer-about>.footer-about-desc {
     width: 100%;
     /* background-color: aquamarine; */
@@ -343,16 +382,17 @@ nav {
     display: flex;
     flex-direction: column;
     row-gap: 35px;
+    /* padding: 0px 5px; */
   }
 
   #footer>.div2>ul {
     display: flex;
     flex-direction: row;
-    column-gap: 40px;
+    column-gap: 28px;
   }
 
   #footer>.div2>ul>a>li {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   #footer>.div3>form>input[type="email"] {
@@ -396,5 +436,9 @@ nav {
 
   .mobile-options {
     display: flex;
+  }
+
+  .login-box {
+    display: none;
   }
 }

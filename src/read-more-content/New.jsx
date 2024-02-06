@@ -57,7 +57,7 @@ export default function Different(prop) {
             const comment = document.getElementById("comment").value;
             // setCommentList([...CommentList, comment]);
             const docRef = doc(dataCollection, `${decodeHeading}-${decodeID}`);
-            await setDoc(docRef, { comments: arrayUnion(comment) , userName: localStorage.getItem("Name") , userEmail: localStorage.getItem("Email") }, { merge: true });  // Use arrayUnion to add the comment to the existing array
+            await setDoc(docRef, { comments: arrayUnion(comment), userName: localStorage.getItem("Name"), userEmail: localStorage.getItem("Email") }, { merge: true });  // Use arrayUnion to add the comment to the existing array
             setFetchComments(prevComments => [...prevComments, comment]);   // Update local state with the new comment
             Successfull_submit();
             document.getElementById("comment").value = "";
@@ -106,7 +106,7 @@ export default function Different(prop) {
                     <div className="title">
                         <p>{Theme.Title}</p>
                     </div>
-                    <div className="btn">
+                    <div className="btn show-none">
                         <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
                         <button onClick={() => { What_share() }}>Share <img src="/whatsapp.png" alt="article-copy-icon" /></button>
                     </div>
@@ -123,6 +123,10 @@ export default function Different(prop) {
                             <p>{line}</p>
                         )) : null
                     }
+                </div>
+                <div className="btn show-btns">
+                    <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
+                    <button onClick={() => { What_share() }}>Share <img src="/whatsapp.png" alt="article-copy-icon" /></button>
                 </div>
                 <div className="comment-sec">
                     <h3>Add comment</h3>

@@ -37,8 +37,11 @@
         width: 450px;
         height: 250px;
     }
+}
 
-    /* #carousel>.pic>.legend {
-        font-size: 10px;
-    } */
+@media screen and (max-width: 430px) {
+    .slider {
+        width: 380px;
+        height: 230px;
+    }
 }

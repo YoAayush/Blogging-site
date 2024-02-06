@@ -176,8 +176,8 @@
     }
 
     #specified-theme-posts>.specified-theme-article>.img>img {
-        width: 350px;
-        height: 250px;
+        width: 330px;
+        height: 220px;
     }
 
     #specified-theme-posts>.specified-theme-article {
@@ -187,5 +187,12 @@
         display: flex;
         flex-direction: column;
         padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #specified-theme-posts>.specified-theme-article>.img>img {
+        width: 290px;
+        height: 200px;
     }
 }

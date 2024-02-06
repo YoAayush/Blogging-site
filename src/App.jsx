@@ -171,6 +171,30 @@ function App() {
           <Link to={'/specified/GPUs'}><li id='list'>GPUs</li></Link>
           <div id='hr-line'></div>
           <Link to={'/specified/Artifficial-Intelligence'}><li id='list'>Artifficial Intelligence</li></Link>
+          <div id='hr-line'></div>
+          <div className='mobile-login-box'>
+            {
+              seeUser ?
+                <button id='logout-btn' onClick={(e) => {
+                  e.preventDefault();
+                  LogOut();
+                }}>Log Out <MdLogout /></button>
+                : false
+            }
+            {
+              seeUser ?
+                <span>
+                  <img src={userData.photoURL} alt="" id='avatar-img' title={userData.displayName} onClick={() => { signWithGoogle() }} onError={(e) => {
+                  e.target.src = "./default-avatar.png"; // Provide a default image source
+                }} />
+                </span>
+                :
+                <span>
+                  <p>Login</p>
+                  <img src="./login-avatar.png" alt="" id='avatar-img' onClick={() => { signWithGoogle() }} title='LogIn' />
+                </span>
+            }
+          </div>
         </ul>
       </div>
 
