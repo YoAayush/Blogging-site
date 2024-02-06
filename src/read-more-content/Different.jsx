@@ -109,7 +109,7 @@ export default function Different(prop) {
                         <p>{Theme.Title}</p>
                     </div>
                     <div className="btn show-none">
-                        <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
+                        {/* <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button> */}
                         <button onClick={() => { What_share() }}>Share <img src="/whatsapp.png" alt="article-copy-icon" /></button>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ export default function Different(prop) {
                     }
                 </div>
                 <div className="btn show-btns">
-                    <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button>
+                    {/* <button onClick={() => { share() }}>Article URL <img src="/article.png" alt="article-copy-icon" /></button> */}
                     <button onClick={() => { What_share() }}>Share <img src="/whatsapp.png" alt="article-copy-icon" /></button>
                 </div>
                 <div className="comment-sec">
