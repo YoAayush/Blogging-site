@@ -59,7 +59,7 @@ export default function Different(prop) {
             const comment = document.getElementById("comment").value;
             // setCommentList([...CommentList, comment]);
             const docRef = doc(dataCollection, `${decodeHeading}-${decodeID}`);
-            await setDoc(docRef, { comments: arrayUnion(comment) }, { merge: true });  // Use arrayUnion to add the comment to the existing array
+            await setDoc(docRef, { comments: arrayUnion(comment), userName: localStorage.getItem("Name"), userEmail: localStorage.getItem("Email") }, { merge: true });  // Use arrayUnion to add the comment to the existing array
             setFetchComments(prevComments => [...prevComments, comment]);   // Update local state with the new comment
             Successfull_submit();
             document.getElementById("comment").value = "";
